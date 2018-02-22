@@ -22,3 +22,44 @@ header img{
 .banner img{
     width: 100%;
 }
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos div{
+    width: 30%;
+}
+
+.produtos div img{
+    width: 100%;
+}
+
+.produtos div p{
+    margin: 0;
+}
+
+.produtos div .titulo{
+    font-size: 26px;
+}
+
+@media(max-width: 600px){
+    header h1{
+        margin: 26px;
+        font-size: 34px;
+    }
+    .banner{
+        display: none;
+    }
+
+    .produtos{
+        display: block;
+    }
+
+    .produtos div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
