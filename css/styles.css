@@ -25,11 +25,13 @@ header img{
 
 .produtos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .produtos div{
     width: 30%;
+    margin-bottom: 30px;
 }
 
 .produtos div img{
@@ -42,6 +44,14 @@ header img{
 
 .produtos div .titulo{
     font-size: 26px;
+}
+
+footer{
+    text-align: right;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
 }
 
 @media(max-width: 600px){
@@ -59,7 +69,6 @@ header img{
 
     .produtos div{
         width: 100%;
-        margin-bottom: 20px;
     }
 
 }
